@@ -23,5 +23,4 @@
     X("", "~/.config/dwm/clock.sh",                    30,         3)   \
     X("", "~/.config/dwm/battery.sh",                  1,          4)    \
     X("", "~/.config/dwm/kde.sh",                      1,          5)
-
 #endif  // CONFIG_H
