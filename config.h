@@ -19,8 +19,9 @@
 // Define blocks for the status feed as X(icon, cmd, interval, signal).
 #define BLOCKS(X)                                                    \
     X("", "~/.config/dwm/volume.sh",                   1,          1) \
-    X("", "~/.config/dwm/keyboard.sh",                 1,          2)  \
-    X("", "~/.config/dwm/clock.sh",                    30,         3)   \
-    X("", "~/.config/dwm/battery.sh",                  1,          4)    \
-    X("", "~/.config/dwm/kde.sh",                      1,          5)
+    X("", "~/.config/dwm/brightness.sh",               1,          2)  \
+    X("", "~/.config/dwm/keyboard.sh",                 1,          3)   \
+    X("", "~/.config/dwm/clock.sh",                    30,         4)    \
+    X("", "~/.config/dwm/battery.sh",                  1,          5)     
+//    X("", "~/.config/dwm/kde.sh",                      1,          6)
 #endif  // CONFIG_H
